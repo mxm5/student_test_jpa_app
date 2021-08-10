@@ -1,6 +1,8 @@
-package org.quantum.repo;
+package org.quantum.repo.school;
 
+import org.quantum.models.School;
 import org.quantum.models.Student;
+import org.quantum.models.Tutor;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -42,6 +44,14 @@ public class StudentRepository {
         return student;
     }
 
+
+    Student addTutor(Long id, Tutor tutor){
+        Student studentById = findStudentById(id);
+        entityManager.getTransaction().begin();
+        studentById.setTutor(tutor);
+        entityManager.getTransaction().commit();
+        return findStudentById(id);
+    }
 
     Student remove(Student student) {
         Student studentFound = entityManager.find(Student.class, student.getId());

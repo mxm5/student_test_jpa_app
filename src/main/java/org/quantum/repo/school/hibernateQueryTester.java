@@ -1,34 +1,10 @@
-package org.quantum.repo;
+package org.quantum.repo.school;
 
 import org.quantum.models.Student;
 
-import java.util.Collection;
 import java.util.List;
 
-public class hibernateQueryTester {
-    public static void line() {
-        System.out.println("_".repeat(100));
-    }
-
-    public static <T> void print(T value) {
-        line();
-        System.out.println(value);
-        line();
-    }
-
-    public static <T> void print(T value, String explain) {
-        line();
-        System.out.println(value + "\n :: " + explain);
-        line();
-    }
-
-    public static void print(List<Student> value, String explain) {
-        line();
-        for (Student s : value)
-            System.out.println(s);
-        System.out.println("\n :: " + explain);
-        line();
-    }
+public class hibernateQueryTester extends MyTester{
 
     public static void main(String[] args) {
         StudentRepository repository = new StudentRepository();
@@ -45,7 +21,7 @@ public class hibernateQueryTester {
 //        repository.add(student3);
 //        repository.add(student4);
 
-        List<String> allStudentsFirstName = repository.getAllStudentsFirstName();
+        List<String> allStudentsFirstName =  repository.getAllStudentsFirstName();
         List<String> allStudentsLastNames = repository.getAllStudentsLastNames();
         List<String> allStudentsIds = repository.getAllStudentsIds();
 

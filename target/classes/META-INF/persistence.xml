@@ -3,6 +3,8 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <class>org.quantum.models.Student</class>
+        <class>org.quantum.models.School</class>
+        <class>org.quantum.models.Tutor</class>
 
         <properties>
             <!-- Driver for DB database -->

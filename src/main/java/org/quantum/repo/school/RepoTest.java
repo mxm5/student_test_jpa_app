@@ -1,4 +1,4 @@
-package org.quantum.repo;
+package org.quantum.repo.school;
 
 import org.quantum.models.Student;
 

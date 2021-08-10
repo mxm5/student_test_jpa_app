@@ -1,2 +1,15 @@
-/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/MainApp.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/MyTester.java
 /home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/models/Student.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/hibernateQueryTester.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/models/School.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/TutorRepository.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/crudClasses/UpdateStudent.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/models/Tutor.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/crudClasses/FindStudent.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/MainApp.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/OneToOneTester.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/crudClasses/RemoveStudent.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/crudClasses/CreateStudent.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/RepoTest.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/StudentRepository.java
+/home/derian/IdeaProjects/student_test_jpa_app/src/main/java/org/quantum/repo/school/SchoolRepository.java

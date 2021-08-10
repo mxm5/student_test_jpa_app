@@ -1,2 +1,15 @@
-org/quantum/models/Student.class
+org/quantum/crudClasses/CreateStudent.class
+org/quantum/crudClasses/FindStudent.class
+org/quantum/repo/school/hibernateQueryTester.class
+org/quantum/repo/school/MyTester.class
+org/quantum/models/School.class
+org/quantum/repo/school/StudentRepository.class
+org/quantum/repo/school/OneToOneTester.class
+org/quantum/crudClasses/RemoveStudent.class
 org/quantum/MainApp.class
+org/quantum/repo/school/TutorRepository.class
+org/quantum/models/Student.class
+org/quantum/repo/school/RepoTest.class
+org/quantum/models/Tutor.class
+org/quantum/crudClasses/UpdateStudent.class
+org/quantum/repo/school/SchoolRepository.class

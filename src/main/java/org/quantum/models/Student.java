@@ -18,6 +18,9 @@ public class Student {
     @Column(name = "student_last_name", nullable = false)
     private String lastName;
 
+    @OneToOne
+    private Tutor tutor;
+
     public Student() {
     }
 
@@ -50,12 +53,23 @@ public class Student {
         this.lastName = lastName;
     }
 
+
+
+    public Tutor getTutor() {
+        return tutor;
+    }
+
+    public void setTutor(Tutor tutor) {
+        this.tutor = tutor;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", tutor=" + tutor +
                 '}';
     }
 }
