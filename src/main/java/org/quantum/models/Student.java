@@ -4,6 +4,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "student_table")
+@NamedQuery(name = "find student by id", query = "select s from Student s where  id = :id")
 public class Student {
 
 
