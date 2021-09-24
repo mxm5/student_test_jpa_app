@@ -25,11 +25,9 @@ public class School {
         this.id = id;
     }
 
-
     public Long getId() {
         return id;
     }
-
 
     public String getSchoolName() {
         return schoolName;
@@ -38,8 +36,6 @@ public class School {
     public void setSchoolName(String schoolName) {
         this.schoolName = schoolName;
     }
-
-
 
     public Set<Student> getStudents() {
         return students;
